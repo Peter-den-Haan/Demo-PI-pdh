@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: Demo-PI-pdh
+  host: Demo-PI-pdh
+  disk_quota: 1024M
+  services:
+  - Demo-PI-pdh-personality_insights
